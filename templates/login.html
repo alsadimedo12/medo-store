@@ -9,7 +9,7 @@
 
 <body style="background-color: darkcyan;">
     <script src="log_in.js"></script>
-    <form id="form1" style="text-align: center;" action="success.html" method="get" onsubmit="return validateForm()">
+    <form id="form1" style="text-align: center;" action="http://127.0.0.1:5000/submit" method="post" onsubmit="return validateForm()">
         <label style="color: (0,rgb(255, 251));">name</label><br>
         <input name="name" style="border-radius: 10px;" type="text"><br><br>
         <label style="color: (0,rgb(255, 251));">Email</label><br>
@@ -17,6 +17,7 @@
         <label style="color: (0,rgb(255, 251));">password </label><br>
         <input name="password" style="border-radius: 10px;" type="password"><br><br>
         <button style="background-color: whitesmoke; border: none; color: darkcyan; border-radius: 10px;"
+        
             type="submit">login</button>
 
     </form>
